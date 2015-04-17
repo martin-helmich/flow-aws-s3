@@ -1,6 +1,10 @@
 <?php
 namespace Helmich\S3\Resource\Publishing;
 
+/*                                                                        *
+ * This script belongs to the TYPO3 Flow package "Helmich.S3".            *
+ *                                                                        */
+
 use Aws\S3\S3Client;
 use TYPO3\Flow\Annotations as Flow;
 use TYPO3\Flow\Resource\Publishing\FileSystemPublishingTarget;
