@@ -1,0 +1,20 @@
+TYPO3:
+  Flow:
+    object:
+      excludeClasses:
+        'aws.awssdkphp': ['.*']
+        'guzzle.guzzle': ['.*']
+
+Helmich:
+  S3:
+    resource:
+      publishing:
+        region: eu-central-1
+        bucket: your-bucket
+        profile: default
+        expiration: 10 years
+
+        detectPackageResourceChanges: FALSE
+
+        fileSystem:
+          mirrorMode: link

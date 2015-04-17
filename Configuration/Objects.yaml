@@ -1,0 +1,3 @@
+
+TYPO3\Flow\Resource\Publishing\ResourcePublishingTargetInterface:
+  className: Helmich\S3\Resource\Publishing\S3PublishingTarget

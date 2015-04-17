@@ -1,0 +1,14 @@
+{
+    "name": "helmich/s3",
+    "type": "typo3-flow-package",
+    "description": "Publish resources into AWS S3 storage",
+    "require": {
+        "typo3/flow": "~2.3.0",
+        "aws/aws-sdk-php": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Helmich\\S3": "Classes"
+        }
+    }
+}
