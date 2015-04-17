@@ -1,6 +1,7 @@
 {
     "name": "helmich/s3",
     "type": "typo3-flow-package",
+    "license": "MIT",
     "description": "Publish resources into AWS S3 storage",
     "require": {
         "typo3/flow": "~2.3.0",
