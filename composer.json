@@ -1,8 +1,8 @@
 {
-    "name": "helmich/s3",
+    "name": "helmich/flow-aws-s3",
     "type": "typo3-flow-package",
     "license": "MIT",
-    "description": "Publish resources into AWS S3 storage",
+    "description": "Publish TYPO3 Flow resources into AWS S3 storage",
     "require": {
         "typo3/flow": "~2.3.0",
         "aws/aws-sdk-php": "*"
